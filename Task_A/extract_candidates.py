@@ -2,8 +2,9 @@ import pandas as pd
 import spacy
 import re
 from collections import Counter, defaultdict
+from cleaning import strip_quote_artifact, collapse_burst_repeats
 
-DATA_PATH = "Task_A\data\sample_data.csv"
+DATA_PATH = "data/sample_data.csv"
 
 MODEL_CODE_PATTERN = re.compile(
     r"\b(\d{1,3}\s?series|\d{2,3}[a-z]{1,3}(?:-[a-z])?|[a-z]\d{1,3}[a-z]{0,2})\b",
@@ -55,6 +56,9 @@ def load_and_clean_data(data_path):
     split_cols = df["date"].str.split("-", n=1, expand=True)
     df["date"] = split_cols[0].str.zfill(2) + "-" + split_cols[1]
     df["date_parsed"] = pd.to_datetime(df["date"], format="%y-%b", errors="coerce")
+
+    df["message"] = df["message"].apply(strip_quote_artifact)
+    df["message"] = df["message"].apply(collapse_burst_repeats)
 
     # print(f"Unparseable dates: {df['date_parsed'].isna().sum()}")
     # print(df[["date", "date_parsed"]].drop_duplicates().sort_values("date_parsed"))
@@ -171,7 +175,7 @@ def main():
 
     print(f"\nCandidates with reach >=2: {len(table)}")
     print(table.head(30))
-    table.to_csv("Task_A\output\candidate_frequencies.csv", index=False)
+    table.to_csv("output/candidate_frequencies.csv", index=False)
 
 
 if __name__ == "__main__":

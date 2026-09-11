@@ -1,32 +1,20 @@
 candidate,raw_count,message_reach
 car,2618,1616
 bmw,2440,1413
-what,1342,1035
 toyota,652,527
 audi,885,517
 acura,860,515
 tl,756,493
-all,536,473
 cts,672,412
-people,532,397
 3 series,839,391
 pontiac,509,356
 honda,420,340
 lexus,444,310
 infiniti,470,308
-some,316,278
 price,311,265
-time,293,260
-point,270,245
-lot,276,243
-one,270,241
 performance,252,232
-anything,249,232
 fact,240,222
-money,230,205
-nothing,220,203
 anyone,210,201
-way,205,197
 others,213,197
 volvo,343,196
 mercedes-benz,236,194
@@ -42,19 +30,15 @@ luxury,178,149
 v6,256,149
 gm,204,144
 cadillac,182,143
-the,163,142
 vehicle,158,141
-both,152,137
 ellps,163,136
 segment,156,136
-everything,139,134
 330i,225,134
 manual,186,133
 msrp,177,132
 30k,186,131
 wife,148,129
 difference,147,129
-case,135,128
 nissan,235,128
 :p,131,128
 toyota d,133,126
@@ -62,18 +46,14 @@ engine,150,125
 leather,162,124
 these  car,128,122
 forum,133,120
-power,129,119
 road,136,118
-top,122,116
 dealer,143,115
 40k,160,114
 5 series,201,111
 tires,130,110
-end,115,108
 everyone,110,107
 volkswagen,144,107
 reason,113,106
-any,112,106
 vehicles,113,106
 e90,204,105
 cost,120,104
@@ -88,23 +68,18 @@ e46,210,96
 weight,121,96
 opinion,105,96
 quality,113,95
-world,101,94
 fwd,109,94
-years,100,94
 warranty,111,93
 couple,98,93
 size,98,92
-things,95,92
 reliability,111,92
 value,113,92
 market,99,91
 ford,106,89
-year,96,89
 thanks,90,89
 mine,95,89
 regards,90,89
 sedan,97,88
-part,92,86
 mb,95,86
 post,88,86
 lease,95,84
@@ -113,7 +88,6 @@ caddy,103,83
 fun,88,81
 experience,88,80
 buick,105,80
-thing,88,78
 rest,80,78
 saab,96,77
 10k,104,77
@@ -130,7 +104,6 @@ choice,73,70
 question,72,69
 features,80,68
 sport package,85,68
-day,71,67
 most people,73,67
 s4,193,67
 hyundai,95,67
@@ -149,7 +122,6 @@ comparison,71,64
 edmunds,65,63
 itself,67,63
 chevrolet,68,62
-head,62,62
 back seat,71,62
 gas,66,62
 board,61,61
@@ -166,9 +138,6 @@ plenty,61,57
 new car,59,57
 sport,62,56
 line,61,56
-your,64,55
-back,64,55
-number,56,55
 any car,58,55
 bimmer,65,55
 dealership,58,54
@@ -177,18 +146,13 @@ toyota mics,62,54
 brand,60,54
 coupe,58,53
 ride,56,53
-life,56,53
 competition,59,53
 nobody,55,53
 category,55,52
 whatever,52,52
-its,54,52
 front,58,52
-person,54,52
-family,53,51
 option,58,51
 kind,52,51
-group,52,50
 matter,52,50
 you guys,53,50
 posts,51,50
@@ -207,14 +171,11 @@ nav,52,47
 stick,66,47
 comments,48,47
 friend,48,47
-work,50,46
 dealers,48,46
-look,49,46
 20k,68,46
 sense,47,46
 thread,50,46
 great car,48,46
-place,47,45
 suspension,47,45
 auto,49,44
 base,51,44
@@ -225,7 +186,6 @@ transmission,48,42
 germany,51,42
 x3,92,42
 maintenance,48,41
-company,43,41
 e30,78,41
 1 series,107,41
 prices,42,41
@@ -245,21 +205,18 @@ $30k,45,39
 no one,41,39
 opinions,44,39
 reasons,39,39
-is,47,39
 repairs,43,39
 ls,48,38
 statement,42,38
 luxury car,43,38
 guy,40,38
 steering,39,38
-each,39,38
 majority,39,38
 topic,39,38
 styling,42,38
 friends,40,38
 manuals,47,37
 style,41,37
-while,37,37
 kids,41,37
 bunch,40,37
 stuff,38,37
@@ -271,7 +228,6 @@ parts,42,36
 resale,38,36
 same thing,36,36
 ow,35,35
-side,38,35
 exterior,36,35
 328xi,50,35
 themselves,35,35
@@ -355,7 +311,6 @@ base model,33,29
 rl,40,28
 chassis,30,28
 safety,32,28
-times,28,28
 nice car,28,28
 c350,58,28
 view,28,28
@@ -363,16 +318,13 @@ doors,30,28
 3 years,32,28
 technology,28,28
 oil,30,28
-right,30,28
 32k,39,28
 rocky,28,28
 turbo,29,27
 sport sedan,32,27
 trip,33,27
 toyota  access,32,27
-use,28,27
 navi,28,27
-house,27,27
 bmw 3 series,27,27
 link,28,27
 resale value,30,26
@@ -383,7 +335,6 @@ whom,27,26
 consideration,28,26
 manual tranny,31,26
 price range,28,26
-home,26,26
 i6,59,26
 trouble,31,26
 manufacturers,30,26
@@ -393,7 +344,6 @@ diesel,41,26
 330xi,48,26
 ones,26,26
 es350,28,26
-set,30,25
 criteria,26,25
 em,28,25
 aluminum,32,25
@@ -414,7 +364,6 @@ japanese,24,24
 best car,27,24
 cadillac cts,26,24
 result,26,24
-another,26,24
 joke,25,24
 every car,26,24
 sport suspension,26,24
@@ -424,7 +373,6 @@ sports car,27,24
 sticker,24,24
 bottom line,24,24
 feeling,24,24
-week,24,24
 spite,25,24
 same car,24,24
 word,24,23
@@ -447,7 +395,6 @@ roads,24,23
 dash,25,23
 pics,26,23
 fuel,27,23
-feel,25,23
 winter tires,35,23
 pricing,25,23
 fan,25,23
@@ -471,8 +418,6 @@ law,23,22
 buck,24,22
 materials,23,22
 san diego,23,22
-need,23,22
-love,22,22
 pontiac 5x,23,22
 blueguy,22,22
 135i,54,22
@@ -487,13 +432,11 @@ review,24,21
 street,21,21
 paper,21,21
 data,28,21
-state,24,21
 drivers,22,21
 wagon,22,21
 automatic transmission,21,21
 tl-s,28,21
 70s,34,21
-care,23,21
 torque steer,22,21
 acuras,21,21
 trade,24,21
@@ -503,7 +446,6 @@ new  pontiac,22,21
 350z,39,21
 anybody,21,21
 everybody,21,21
-job,22,21
 exactly what,21,21
 winner,26,21
 dollar,25,21
@@ -514,13 +456,11 @@ good deal,21,21
 benchmark,23,21
 refinement,22,21
 one car,22,21
-water,27,20
 light,21,20
 acura tl,20,20
 feedback,20,20
 big deal,20,20
 backseat,22,20
-change,21,20
 definition,22,20
 next car,20,20
 par,22,20
@@ -529,11 +469,9 @@ balance,21,20
 snow tires,24,20
 e39,33,20
 consumer reports,21,20
-name,23,20
 con nissan tion,20,20
 rotors,29,20
 pontiac 5 coupe,21,20
-my,20,20
 new  bmw,22,20
 leasing,22,20
 respect,20,20
@@ -544,7 +482,6 @@ butt,22,19
 all the  car,19,19
 heck,19,19
 curves,20,19
-business,20,19
 s2000,20,19
 mt,23,19
 many  car,20,19
@@ -555,7 +492,6 @@ good luck,19,19
 performance sedan,21,19
 60 mph,22,19
 $35k,23,19
-states,19,19
 toyota s,19,19
 no need,19,19
 c230,30,19
@@ -566,11 +502,9 @@ parents,19,19
 navigation,21,19
 33k,21,19
 heart,19,19
-night,20,19
 two  car,19,19
 driveway,22,19
 1-series,20,19
-man,18,18
 exception,18,18
 half,18,18
 stats,21,18
@@ -600,7 +534,6 @@ most part,20,18
 long time,18,18
 munich,30,18
 jaguar,20,18
-god,18,18
 70k,32,18
 :blush,17,17
 t5,22,17
@@ -615,7 +548,6 @@ pads,25,17
 platform,23,17
 enthusiasts,19,17
 enthusiast,18,17
-their,20,17
 host,17,17
 links,19,17
 taste,17,17
@@ -643,7 +575,6 @@ what kind,16,16
 tranny,19,16
 engines,16,16
 feature,21,16
-system,18,16
 equation,16,16
 fedlawman,17,16
 maintenance costs,20,16
@@ -654,7 +585,6 @@ xenons,17,16
 manual transmissions,16,16
 proof,17,16
 these vehicles,16,16
-music,19,16
 audis,16,16
 5 years,16,16
 ability,19,16
@@ -814,9 +744,7 @@ short l toyota,14,13
 vacation,18,13
 alot,14,13
 dinan,25,13
-thought,13,13
 hour,13,13
-days,14,13
 amount,15,13
 discounts,13,13
 decades,13,13
@@ -841,12 +769,10 @@ questions,13,13
 interior space,13,13
 insurance,13,13
 three years,16,13
-school,14,13
 what car,13,13
 la,14,13
 guys,13,13
 situation,13,13
-second,13,12
 shame,12,12
 rear seat,12,12
 miata,14,12
@@ -937,7 +863,6 @@ mile,15,11
 office,11,11
 window,11,11
 z06,15,11
-i've,11,11
 pressure,11,11
 shifter,12,11
 current car,11,11
@@ -1015,7 +940,6 @@ beginning,12,11
 bias,12,11
 leases,12,11
 buddy,11,11
-an,12,11
 free maintenance,11,11
 infiniti x,12,11
 top gear,11,10
@@ -1058,7 +982,6 @@ better value,12,10
 fun factor,11,10
 dc,10,10
 chrome,12,10
-stop,11,10
 m toyota ake,11,10
 rattles,10,10
 ads,16,10
@@ -1166,7 +1089,6 @@ used car,9,9
 nose,9,9
 employees,9,9
 honda s,9,9
-women,11,9
 brake pads,9,9
 bmw s,11,9
 sake,10,9
@@ -1191,8 +1113,6 @@ requirement,10,9
 dog,15,9
 kia,10,9
 priorities,9,9
-no,9,9
-game,11,9
 benefits,10,9
 damage,11,9
 purpose,9,9
@@ -1348,7 +1268,6 @@ such a thing,8,8
 performance car,8,8
 bgdc,8,8
 bimmers,8,8
-help,8,8
 better buy,9,8
 either car,8,8
 4 people,9,8
@@ -1386,7 +1305,6 @@ clock,9,8
 tests,9,8
 advertising,9,8
 just me,8,8
--s,8,8
 ventilated  seat,9,8
 context,8,8
 loaded  bmw,9,8
@@ -1429,7 +1347,6 @@ fun car,8,8
 mechanic,8,8
 any way,8,8
 5 seconds,8,8
-today,8,8
 contender,7,7
 great value,8,7
 sporty,7,7
@@ -1470,7 +1387,6 @@ dough,7,7
 paddle shifter,7,7
 all kinds,8,7
 most fun,7,7
-take,7,7
 bells,8,7
 keyless entry,7,7
 september,8,7
@@ -1547,7 +1463,6 @@ stability control,8,7
 lot less money,7,7
 phoenix,7,7
 great handling,7,7
-must,7,7
 sensors,8,7
 added weight,8,7
 2004 tl 6-speed,7,7
@@ -1733,7 +1648,6 @@ following,6,6
 mf,6,6
 pletko,6,6
 detroit,9,6
-support,6,6
 dinner,7,6
 chat,6,6
 offer,7,6
@@ -1888,7 +1802,6 @@ confidence,6,6
 stripped  bmw,7,6
 2007 cts,6,6
 assumptions,6,6
-start,6,6
 commute,6,6
 little things,6,6
 rears,6,6
@@ -2069,7 +1982,6 @@ brake dust,6,5
 great gas mileage,5,5
 tool,5,5
 10x,9,5
-try,5,5
 328/335,5,5
 300zx,7,5
 top priority,5,5
@@ -2143,7 +2055,6 @@ price tag,5,5
 steal,5,5
 block,7,5
 prize,5,5
-call,5,5
 cut,6,5
 slk55,5,5
 more value,6,5
@@ -2322,7 +2233,6 @@ everyday driving,5,5
 bad car,5,5
 barrel,7,5
 hummer,5,5
-go,5,5
 weeks,5,5
 luxury nameplates,5,5
 red,5,5
@@ -2398,7 +2308,6 @@ shifts,5,5
 -60 1/4 mi,5,5
 v8 model,5,5
 those features,5,5
-show,5,5
 120k,6,5
 same equipment,5,5
 fwd platform,5,5
@@ -2427,7 +2336,6 @@ other posts,4,4
 luxury vehicle,4,4
 blog,4,4
 acura  i4,4,4
-5%,4,4
 centage,4,4
 living,4,4
 all bmw,4,4
@@ -2478,7 +2386,6 @@ public forum,4,4
 35 series,5,4
 major  problem,4,4
 lighter ones,5,4
-read,4,4
 other areas,4,4
 buick lucerne,4,4
 early 90s,4,4
@@ -2504,7 +2411,6 @@ standard options,4,4
 bmw 328xi,4,4
 reasonable price,4,4
 virtually every car,4,4
-the-lot,5,4
 hard drive,4,4
 routine maintenance,4,4
 bag,4,4
@@ -2774,7 +2680,6 @@ german,4,4
 clients,4,4
 personal taste,5,4
 molding,5,4
-men,6,4
 fear,4,4
 standard leather,4,4
 stone,4,4
@@ -2807,7 +2712,6 @@ quite some time,4,4
 many buyers,4,4
 penalty,4,4
 new tires,4,4
-every,4,4
 only room,4,4
 recognition,5,4
 several others,4,4
@@ -3187,7 +3091,6 @@ guides,4,3
 performance perspective,3,3
 different things,3,3
 auto transmission,3,3
-well,3,3
 rear spoiler,3,3
 boat load,3,3
 sunshades,3,3
@@ -3216,7 +3119,6 @@ snap,3,3
 brick,3,3
 4g tl,3,3
 all my  car,3,3
-may,3,3
 test track,3,3
 lexus is250,3,3
 flip side,3,3
@@ -3434,7 +3336,6 @@ one more thing,3,3
 v-6,3,3
 exclusion,3,3
 bland,3,3
-at,6,3
 correction,3,3
 54k,3,3
 330i/ bmw,3,3
@@ -3467,7 +3368,6 @@ liberace,3,3
 legit contender,4,3
 isolation,3,3
 same ballpark,3,3
-government,3,3
 smart  car,3,3
 leather seat,3,3
 200 lbs,3,3
@@ -3478,7 +3378,6 @@ all options,3,3
 mb c230,3,3
 these  problem,3,3
 today's  car,3,3
-out,3,3
 rpms,3,3
 manhattan,3,3
 family car,3,3
@@ -3646,7 +3545,6 @@ us  car,3,3
 bit c dodge ped,3,3
 old one,3,3
 most everything,3,3
-as,3,3
 car seat,4,3
 hurry,3,3
 reel,3,3
@@ -3811,7 +3709,6 @@ warantee,3,3
 smg,3,3
 lady,3,3
 dsg tranny,3,3
-i-6,3,3
 base is350,3,3
 more features,3,3
 no choice,4,3
@@ -4084,7 +3981,6 @@ price gap,3,3
 v honda,3,3
 rear seat gain,3,3
 gm'seat,3,3
-well(of,3,3
 even he,3,3
 sucker,3,3
 country roads,3,3
@@ -4190,7 +4086,6 @@ signing,4,3
 separation,3,3
 next couple,3,3
 same power,3,3
-know,3,3
 comparable vehicles,3,3
 tan interior,3,3
 330d,5,3
@@ -4248,7 +4143,6 @@ no substitute,3,3
 leased  car,3,3
 2008' cts,3,3
 new s5,3,3
-good,3,3
 lexus interior,3,3
 everyday driver,3,3
 reply,3,3
@@ -4362,7 +4256,6 @@ maintenance cost,3,3
 530ia,3,3
 3 times,3,3
 studio,3,3
-his,3,3
 feb,5,3
 closer look,3,3
 denials,4,3
@@ -4547,7 +4440,6 @@ warts,3,3
 swivel xenons,3,3
 southeast,3,3
 obc,4,3
-left,3,3
 fidelity,3,3
 much bigger effect,3,3
 interest payment,3,3
@@ -4657,7 +4549,6 @@ push,2,2
 newer car,2,2
 excellent post,2,2
 straightline,2,2
-what-,2,2
 06 e90 zsp,2,2
 3500lbs,2,2
 holiness,2,2
@@ -4894,7 +4785,6 @@ those e36,2,2
 honda d resale-value madness,2,2
 consumer reports-,2,2
 first thing,2,2
-however,2,2
 added performance,2,2
 local bmw dealership,2,2
 credence,2,2
@@ -5043,7 +4933,6 @@ aftermarekt unit,2,2
 marketing department,2,2
 grades,3,2
 10 - 15 years,2,2
-start-up,2,2
 10-20 yrs,2,2
 240hp,3,2
 218hp,4,2
@@ -5154,7 +5043,6 @@ tie-breaker,2,2
 midnight,2,2
 sorry,2,2
 wonderful choice,2,2
-)i,2,2
 marque,2,2
 sirius module,2,2
 '07  pontiac,2,2
@@ -5486,7 +5374,6 @@ better version,2,2
 volvo 3 series,2,2
 not   fun,2,2
 no real flair,2,2
-better.(don't,2,2
 reliable transmission,2,2
 al,2,2
 (sorry rockylee,2,2
@@ -5628,7 +5515,6 @@ no subsantive reason,2,2
 dealer satisfaction,2,2
 jersey,2,2
 last 5 years,2,2
-it.2,2,2
 impacts,2,2
 crash zones,2,2
 choice.regards,2,2
@@ -5996,7 +5882,6 @@ quality issues,2,2
 gamble,2,2
 hp war,2,2
 worms,2,2
-can,2,2
 higher msrp,2,2
 european family sedan,2,2
 x-type,2,2
@@ -6194,7 +6079,6 @@ even the  pontiac,2,2
 two teenage kids,2,2
 not everything,2,2
 e28,3,2
-put,2,2
 very nice looking car,2,2
 marked improvement,2,2
 gray plastic,2,2
@@ -6320,7 +6204,6 @@ average ellps,2,2
 porsche's interior,2,2
 different category,2,2
 more p,2,2
-5's,2,2
 next gen  bmw,2,2
 bimmer fans,2,2
 "lexus, infiniti, audi, mb, acura models",2,2
@@ -6696,7 +6579,6 @@ overpriced stuff,2,2
 several ways,2,2
 tl's interior,2,2
 absolutely nothing,2,2
-6%,2,2
 lie,2,2
 false statement,2,2
 defender,2,2
@@ -6730,7 +6612,6 @@ dispositon fees,2,2
 150%,2,2
 car's msrp,2,2
 real difference,2,2
-7%,3,2
 many  bmw,2,2
 $277/mo lease,2,2
 6 speeds,2,2
@@ -6748,7 +6629,6 @@ factory 7year-100k warranty + free loaner car,2,2
 latest cat,2,2
 all the ones,2,2
 old fahioned way,2,2
-2%,2,2
 max msd,2,2
 2 or 3 years lease term,2,2
 bmwfs' money factor,2,2
@@ -6807,7 +6687,6 @@ most  honda,2,2
 high-strung thing,2,2
 first bmw,2,2
 ed car,2,2
-the-head,2,2
 two's company,2,2
 toll roads,2,2
 msrp - ed discount,2,2
@@ -6860,7 +6739,6 @@ format,2,2
 conservative drivers,2,2
 personal preferences,2,2
 boundaries,2,2
-(s,2,2
 fun/luxury factor,2,2
 spotty electrical and accessory reliability(it,2,2
 3s,2,2
@@ -7304,7 +7182,6 @@ local   mercedes-benz  dealer,2,2
 beautiful car,2,2
 no cost option,2,2
 3500 lbs,2,2
-new,2,2
 no navi,2,2
 new clutch,2,2
 automatic car,2,2
@@ -7455,7 +7332,6 @@ air transport manufacturers,2,2
 entertainment,2,2
 which direction,2,2
 any damage,2,2
-say,2,2
 credentials,2,2
 increased size,2,2
 all non-m car  bmw,2,2
@@ -7599,7 +7475,6 @@ certain brand,2,2
 hardcore fan,3,2
 least amount,2,2
 "bmw,   mercedes-benz",2,2
-let,2,2
 same feel,2,2
 each model,2,2
 flow,2,2
@@ -7814,7 +7689,6 @@ great service,2,2
 knob,2,2
 good vehicle,2,2
 normally designed size-range,2,2
-it;s,2,2
 v16,3,2
 gremlins,2,2
 very short skirts,2,2
@@ -8007,7 +7881,6 @@ replacement costs,2,2
 pricing information,2,2
 add-ons,2,2
 typical repair,2,2
-part(s,2,2
 likely repairs,2,2
 l toyota s costs,2,2
 coststhis table,2,2
@@ -8230,7 +8103,6 @@ ed one,2,2
 rental car fee,2,2
 good shopper,2,2
 all the room,2,2
-play,2,2
 late 20s,2,2
 driving synamics,2,2
 faster car,2,2
@@ -9078,7 +8950,6 @@ sporty family sedan,2,2
 new max,2,2
 replies,2,2
 lucerne clone,2,2
-group-,2,2
 above post,2,2
 nyc auto show,2,2
 entire driving life,2,2
