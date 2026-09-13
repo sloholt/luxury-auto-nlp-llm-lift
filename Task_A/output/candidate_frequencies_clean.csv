@@ -1,5 +1,4 @@
 candidate,raw_count,message_reach
-car,2618,1616
 bmw,2440,1413
 toyota,652,527
 audi,885,517
@@ -30,7 +29,6 @@ luxury,178,149
 v6,256,149
 gm,204,144
 cadillac,182,143
-vehicle,158,141
 ellps,163,136
 segment,156,136
 330i,225,134
@@ -54,7 +52,6 @@ tires,130,110
 everyone,110,107
 volkswagen,144,107
 reason,113,106
-vehicles,113,106
 e90,204,105
 cost,120,104
 discussion,118,104
@@ -177,7 +174,6 @@ sense,47,46
 thread,50,46
 great car,48,46
 suspension,47,45
-auto,49,44
 base,51,44
 premium,48,43
 other hand,44,43
@@ -800,7 +796,6 @@ base tl,12,12
 navigation system,12,12
 air,13,12
 real leather,15,12
-automobile,12,12
 $10k,12,12
 chip,13,12
 record,12,12
@@ -1536,7 +1531,6 @@ un toyota,7,7
 luxury part,7,7
 note,8,7
 hours,7,7
-automobiles,7,7
 deer,10,7
 max,9,7
 bmw interior,7,7

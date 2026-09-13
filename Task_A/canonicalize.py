@@ -16,6 +16,8 @@ BRAND_ANCHORS = [
     "gm",
     "toyota",
     "pontiac",
+    "mazda",
+    "volkswagen",
 ]
 
 
@@ -100,6 +102,16 @@ def lift_assign_candidate(
     }
 
 
+# Candidates below this message_reach are long-tail noise (near-singleton
+# mentions) and are not worth an LLM call either for brand-variant detection
+# or attribute discovery. 30 was chosen by inspecting the reach distribution:
+# it captures known brand slang/abbreviations that a smaller cutoff would miss
+# (e.g. "bimmer" reach=55, "caddy" reach=83, "mb" reach=86 -- all below the
+# original top-50-by-reach cutoff this replaces) while keeping the LLM-review
+# set to a manageable ~250 candidates. See report notes.
+MIN_REACH_FOR_REVIEW = 30
+
+
 def main():
     from extract_candidates import load_and_clean_data, DATA_PATH
 
@@ -113,23 +125,26 @@ def main():
     )
 
     presence = compute_brand_presence(df)
-    model_code_candidates = (
-        unresolved.sort_values("message_reach", ascending=False)
-        .head(50)["candidate"]
+    review_candidates = (
+        unresolved[unresolved["message_reach"] >= MIN_REACH_FOR_REVIEW]
+        .sort_values("message_reach", ascending=False)["candidate"]
         .tolist()
     )
 
     results = [
-        lift_assign_candidate(df, cand, presence) for cand in model_code_candidates
+        lift_assign_candidate(df, cand, presence) for cand in review_candidates
     ]
     results_df = pd.DataFrame(results)
     results_df.to_csv("output/lift_assignments.csv", index=False)
 
-    confident = results_df[results_df["confident"]]
-    needs_review = results_df[~results_df["confident"]]
-    print(f"Confidently assigned: {len(confident)}")
-    print(f"Needs LLM review: {len(needs_review)}")
-    needs_review.to_csv("output/needs_llm_review.csv", index=False)
+    # Co-occurrence lift alone is not trustworthy evidence of a brand
+    # reference -- e.g. "forum" showed lift=3.89 toward lincoln and "fwd"
+    # showed lift=3.87 toward nissan in an earlier run, both spurious
+    # coincidences in a corpus this size. So "confident" lift is kept only
+    # as context passed to the LLM, not as an auto-merge gate: every
+    # candidate above the reach threshold goes to LLM adjudication.
+    print(f"Candidates sent to LLM adjudication: {len(results_df)}")
+    results_df.to_csv("output/needs_llm_review.csv", index=False)
 
 
 if __name__ == "__main__":

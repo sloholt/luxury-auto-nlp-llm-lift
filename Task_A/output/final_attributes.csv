@@ -1,0 +1,11 @@
+attribute_category,raw_count,message_reach,variant_count,example_terms
+price/value,2165,1707,25,"ed, 30k, 40k, 10k, 50k, 35k"
+performance/powertrain,1912,1507,20,"v6, v8, hp, snow, track, 300hp"
+segment/positioning,1079,939,13,"base, class, brand, badge, luxury, market"
+reliability/quality,1014,866,14,"100k, issue, parts, miles, brakes, issues"
+drivetrain configuration (awd/rwd/fwd),649,519,7,"awd, rwd, fwd, stick, wheel, wheels"
+interior/comfort,609,505,6,"seat, wood, space, leather, interior, back seat"
+handling/ride,550,498,8,"tires, drive, sport, front, corners, handling"
+styling/body type,408,375,7,"size, sedan, coupe, style, looks, styling"
+technology/features,340,303,6,"nav, option, options, sunroof, features, bluetooth"
+fuel economy,108,102,2,"gas, mileage"

@@ -10,16 +10,27 @@ AMBIGUOUS_CANDIDATES = {"toyota", "honda", "pontiac"}
 BURST_PATTERN = re.compile(
     r"(\b\w[\w\-]*\b(?:\s+\w[\w\-]*\b){0,3})(\s+\1){1,}", re.IGNORECASE
 )
+DOMAIN_GENERIC_TERMS = {
+    "car",
+    "cars",
+    "vehicle",
+    "vehicles",
+    "auto",
+    "automobile",
+    "automobiles",
+}
 
 
 def strip_quote_artifact(text):
     return QUOTE_ARTIFACT.sub("", text)
 
 
-def is_generic_word(cand, threshold=5.5):
-    if " " in cand:
+def is_generic_word(candidate, threshold=5.5):
+    if " " in candidate:
         return False
-    return zipf_frequency(cand, "en") >= threshold
+    if candidate.lower() in DOMAIN_GENERIC_TERMS:
+        return True
+    return zipf_frequency(candidate, "en") >= threshold
 
 
 def filter_generic_candidates(table, threshold=5.5):

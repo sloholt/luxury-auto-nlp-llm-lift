@@ -1,0 +1,4 @@
+term,sample_size,n_genuine_in_sample,n_valid,genuine_rate,raw_reach,corrected_reach_estimate
+toyota,100,11,100,0.11,1463,161
+pontiac,100,6,100,0.06,564,34
+honda,100,30,100,0.3,509,153

@@ -1,5 +1,4 @@
 candidate,best_brand,lift,runner_up_lift,confident
-car,volvo,1.42,1.42,False
 tl,acura,3.55,2.53,False
 cts,cadillac,6.15,4.3,False
 3 series,cadillac,2.38,2.33,False
@@ -8,26 +7,25 @@ performance,lincoln,2.7,2.14,False
 fact,cadillac,2.84,2.64,False
 anyone,nissan,2.1,1.96,False
 others,mercedes-benz,2.37,2.29,False
-course,mercedes-benz,2.26,2.14,False
+course,volkswagen,2.3,2.26,False
 class,mercedes-benz,4.2,2.95,False
-problem,nissan,2.45,2.41,False
+problem,nissan,2.45,2.44,False
 is350,pontiac,3.94,3.6,False
 awd,volvo,2.56,2.52,False
 interior,pontiac,2.64,2.61,False
-luxury,lincoln,2.88,2.75,False
+luxury,lincoln,2.88,2.84,False
 v6,honda,3.16,2.84,False
-vehicle,mercedes-benz,2.26,2.18,False
-ellps,cadillac,1.95,1.67,False
+ellps,cadillac,1.95,1.79,False
 segment,volvo,3.21,3.12,False
-330i,pontiac,2.48,2.08,False
-manual,mercedes-benz,2.29,1.73,False
-msrp,volvo,2.16,1.79,False
-30k,volvo,3.41,2.66,False
-wife,volvo,2.48,2.45,False
+330i,volkswagen,3.22,2.48,False
+manual,volkswagen,2.36,2.29,False
+msrp,mazda,2.62,2.16,False
+30k,volvo,3.41,3.25,False
+wife,volkswagen,2.56,2.53,False
 difference,infiniti,1.88,1.87,False
 :p,bmw,0.0,0.0,False
-engine,nissan,2.35,1.96,False
-leather,cadillac,2.71,2.18,False
+engine,volkswagen,2.41,2.35,False
+leather,cadillac,2.71,2.59,False
 these  car,cadillac,3.01,2.92,False
 forum,lincoln,3.89,2.16,True
 road,audi,1.84,1.81,False
@@ -36,16 +34,241 @@ dealer,lexus,1.99,1.92,False
 5 series,gm,4.01,3.81,False
 tires,toyota,1.52,1.51,False
 everyone,mercedes-benz,2.74,2.68,False
-volkswagen,audi,3.89,3.32,False
 reason,volvo,2.87,2.45,False
-vehicles,nissan,2.45,2.27,False
-e90,bmw,1.92,1.63,False
+e90,bmw,1.92,1.74,False
 cost,infiniti,2.16,2.11,False
 discussion,lincoln,2.56,2.02,False
-handling,audi,2.08,2.07,False
-seat,audi,2.1,1.98,False
-myself,audi,1.93,1.63,False
-mazda,volvo,3.34,3.13,False
+handling,mazda,2.35,2.08,False
+seat,mazda,2.63,2.1,False
+myself,volkswagen,2.46,1.93,False
 europe,mercedes-benz,3.66,3.18,False
 rwd,nissan,2.22,1.98,False
-e46,bmw,2.16,1.58,False
+e46,volkswagen,2.4,2.16,False
+weight,mazda,1.87,1.77,False
+opinion,gm,2.51,2.4,False
+quality,gm,3.57,3.04,False
+fwd,nissan,3.87,2.44,True
+warranty,nissan,2.6,2.26,False
+couple,volvo,2.64,2.49,False
+size,gm,2.61,2.11,False
+reliability,volkswagen,3.78,3.3,False
+value,cadillac,2.47,2.13,False
+market,cadillac,2.36,2.26,False
+ford,gm,5.22,4.43,False
+thanks,audi,1.8,1.56,False
+mine,lexus,2.05,1.82,False
+regards,gm,1.54,1.53,False
+sedan,mazda,2.15,2.02,False
+mb,mercedes-benz,4.22,3.8,False
+post,volvo,1.86,1.61,False
+lease,infiniti,1.95,1.74,False
+is250,lexus,4.02,3.63,False
+caddy,cadillac,5.36,4.28,False
+fun,volkswagen,3.2,2.85,False
+experience,lexus,2.12,2.09,False
+buick,gm,3.85,3.39,False
+rest,mercedes-benz,3.39,3.37,False
+saab,volvo,8.17,3.94,True
+10k,nissan,2.86,2.34,False
+50k,infiniti,2.51,2.3,False
+options,mazda,2.56,2.09,False
+terms,cadillac,3.61,3.35,False
+none,nissan,2.34,2.26,False
+example,gm,3.26,2.62,False
+mind,gm,2.05,1.87,False
+v8,gm,3.05,2.92,False
+sales,nissan,2.48,2.26,False
+issue,mercedes-benz,2.78,2.2,False
+choice,nissan,2.5,2.45,False
+question,volkswagen,1.92,1.84,False
+features,cadillac,2.71,2.47,False
+sport package,audi,2.89,2.41,False
+most people,cadillac,2.94,2.19,False
+s4,audi,6.62,5.39,False
+hyundai,lincoln,3.16,3.1,False
+new cts,cadillac,8.27,7.63,False
+track,mazda,2.69,1.6,True
+lack,mazda,2.88,2.87,False
+numbers,honda,1.84,1.69,False
+porsche,gm,2.37,2.24,False
+test,pontiac,2.29,2.21,False
+lots,gm,3.25,2.35,False
+35k,lincoln,3.1,2.75,False
+confuse,nissan,1.62,1.46,False
+torque,audi,2.98,2.87,False
+manual transmission,mercedes-benz,3.17,2.28,False
+comparison,mazda,2.87,2.6,False
+edmunds,cadillac,2.55,2.43,False
+itself,lincoln,4.07,3.05,False
+chevrolet,gm,4.24,3.17,False
+back seat,volkswagen,3.53,2.79,False
+gas,audi,1.81,1.68,False
+board,lincoln,2.95,1.35,True
+drive,audi,2.17,2.13,False
+hp,volkswagen,2.13,2.12,False
+brakes,nissan,2.04,1.98,False
+other  car,volvo,4.1,2.43,True
+driver,honda,2.42,2.41,False
+order,volkswagen,2.66,2.21,False
+ed,toyota,2.11,2.06,False
+japan,mercedes-benz,4.14,3.77,False
+:surprise,,0.0,,False
+plenty,lexus,2.19,2.17,False
+new car,volkswagen,2.24,2.05,False
+sport,infiniti,2.51,2.07,False
+line,mercedes-benz,2.78,2.59,False
+any car,cadillac,3.52,3.22,False
+bimmer,lincoln,3.39,2.33,False
+dealership,acura,2.54,2.14,False
+snow,mercedes-benz,2.42,2.06,False
+brand,volkswagen,3.36,3.36,False
+coupe,pontiac,2.9,2.74,False
+ride,gm,2.24,2.22,False
+competition,infiniti,3.17,3.0,False
+nobody,mercedes-benz,3.52,3.04,False
+category,nissan,3.15,2.57,False
+whatever,volvo,2.52,2.03,False
+front,audi,2.01,1.91,False
+option,infiniti,2.05,1.94,False
+kind,volvo,2.24,2.02,False
+matter,nissan,2.28,2.24,False
+you guys,gm,2.3,1.99,False
+posts,nissan,2.35,1.8,False
+subaru,mazda,8.84,4.19,True
+15k,mercedes-benz,3.84,3.65,False
+yourself,gm,3.71,2.53,False
+decision,volkswagen,2.14,2.02,False
+idea,lincoln,2.09,1.88,False
+325i,toyota,2.3,2.1,False
+acceleration,nissan,2.94,2.15,False
+wheels,cadillac,2.07,2.04,False
+folks,mercedes-benz,2.25,2.11,False
+surprise,cadillac,2.67,2.6,False
+highway,volvo,3.03,2.68,False
+nav,acura,2.87,2.67,False
+stick,nissan,2.38,2.15,False
+comments,nissan,2.5,2.17,False
+friend,lexus,2.08,2.0,False
+dealers,lexus,2.46,1.94,False
+20k,gm,4.36,3.35,False
+sense,nissan,2.83,2.0,False
+thread,mazda,3.38,2.45,False
+great car,volkswagen,3.8,3.62,False
+suspension,mercedes-benz,2.52,2.21,False
+base,infiniti,2.53,2.41,False
+premium,infiniti,2.59,2.31,False
+other hand,volvo,3.16,2.96,False
+type,acura,3.01,2.54,False
+transmission,mercedes-benz,2.61,2.44,False
+germany,mercedes-benz,3.76,3.31,False
+x3,mazda,4.34,2.57,True
+maintenance,bmw,1.96,1.93,False
+e30,mazda,2.97,2.59,False
+1 series,volkswagen,3.51,2.97,False
+prices,volvo,3.41,2.74,False
+300hp,volvo,4.15,3.71,False
+service,lexus,3.1,3.03,False
+530i,bmw,2.17,2.05,False
+article,gm,2.2,2.17,False
+facts,acura,3.3,3.15,False
+dodge,mercedes-benz,2.53,2.14,False
+mileage,audi,2.29,2.09,False
+one thing,cadillac,5.11,2.65,True
+depreciation,cadillac,3.43,2.56,False
+45k,bmw,2.08,1.99,False
+blush,cadillac,2.29,1.62,False
+thousands,mercedes-benz,2.9,2.2,False
+$30k,,0.0,,False
+no one,cadillac,3.53,2.88,False
+opinions,gm,4.2,2.88,False
+reasons,audi,2.59,2.24,False
+repairs,volkswagen,3.03,2.84,False
+ls,lincoln,13.24,5.67,True
+statement,gm,3.23,1.97,True
+luxury car,lincoln,4.51,2.76,True
+guy,cadillac,2.15,2.06,False
+steering,cadillac,2.37,2.21,False
+majority,nissan,2.2,2.02,False
+topic,lincoln,3.1,3.1,False
+styling,cadillac,3.68,3.53,False
+friends,volkswagen,3.15,2.07,True
+manuals,mercedes-benz,4.4,3.25,False
+style,volvo,4.0,3.53,False
+kids,mazda,3.38,3.03,False
+bunch,infiniti,2.77,2.25,False
+stuff,volvo,3.07,2.77,False
+purchase,gm,1.92,1.72,False
+garage,volkswagen,2.72,2.63,False
+logic,nissan,3.59,2.54,False
+instance,volvo,5.84,5.32,False
+parts,nissan,2.8,2.79,False
+resale,volkswagen,2.93,2.64,False
+same thing,infiniti,3.61,3.09,False
+ow,lincoln,1.99,1.87,False
+exterior,cadillac,5.49,4.98,False
+328xi,lincoln,5.67,3.64,True
+themselves,lexus,3.24,2.62,False
+911s,nissan,6.29,3.98,True
+miles,nissan,2.69,1.96,False
+corners,mazda,2.9,2.65,False
+owners,lexus,2.78,2.05,False
+future,cadillac,3.61,3.22,False
+2.0t,audi,6.81,3.27,True
+$40k,,0.0,,False
+month,cadillac,2.46,2.4,False
+bit,mercedes-benz,2.51,2.3,False
+shipo,cadillac,1.45,1.32,False
+issues,nissan,2.92,2.04,False
+sports sedan,mazda,3.66,2.92,False
+hell,cadillac,2.95,2.1,False
+manufacturer,lincoln,3.01,2.29,False
+same time,lexus,3.15,2.59,False
+bottom,volvo,3.54,2.51,False
+100k,infiniti,2.75,2.7,False
+germans,infiniti,3.68,2.89,False
+speed,mazda,2.63,2.31,False
+gs,lexus,5.02,3.91,False
+test drive,pontiac,3.27,2.66,False
+room,mazda,4.16,2.66,True
+looks,cadillac,2.69,2.56,False
+335xi,pontiac,1.78,1.77,False
+no way,gm,2.93,2.44,False
+eyes,gm,3.71,3.54,False
+space,mazda,3.84,3.01,False
+sort,gm,3.6,3.11,False
+apples,volvo,3.03,2.61,False
+2008 cts,cadillac,7.14,6.28,False
+wheel,honda,2.37,2.36,False
+sts,cadillac,13.09,6.88,True
+addition,nissan,5.03,4.25,False
+chance,gm,3.36,3.12,False
+sunroof,cadillac,3.24,3.11,False
+badge,cadillac,4.4,3.97,False
+winter,honda,1.96,1.71,False
+buyer,lexus,2.85,2.02,False
+area,volvo,2.25,2.14,False
+new one,cadillac,3.87,3.6,False
+past,gm,3.29,3.26,False
+deal,volvo,2.05,1.82,False
+factor,cadillac,2.51,2.17,False
+door,volkswagen,3.74,3.48,False
+sports package,lexus,2.92,2.22,False
+clutch,nissan,2.36,2.06,False
+25k,mazda,7.85,6.5,False
+ya,toyota,1.43,1.26,False
+wood,cadillac,2.36,2.14,False
+yours,lexus,2.78,1.68,True
+bluetooth,cadillac,4.94,3.1,True
+only thing,volkswagen,2.4,2.33,False
+invoice,honda,1.87,1.84,False
+cr,mazda,2.97,2.81,False
+models,cadillac,4.23,3.5,False
+ownership,volvo,3.03,2.78,False
+interest,gm,2.33,1.97,False
+e36,bmw,2.47,1.96,False
+reality,volvo,2.47,2.23,False
+60k,volvo,3.54,3.2,False
+town,honda,3.27,3.15,False
+cash,nissan,1.84,1.77,False
+rear,mercedes-benz,2.97,2.87,False
+truth,gm,4.35,3.11,False

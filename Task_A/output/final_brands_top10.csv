@@ -1,0 +1,11 @@
+candidate,raw_count,message_reach,variant_count,corrected,genuine_rate
+bmw,5514,3321,230,False,
+acura,1833,1214,68,False,
+cadillac,1168,827,20,False,
+audi,1316,807,66,False,
+lexus,929,719,47,False,
+gm,548,437,35,False,
+infiniti,566,400,34,False,
+mercedes-benz,384,331,22,False,
+volvo,423,266,20,False,
+nissan,305,197,18,False,

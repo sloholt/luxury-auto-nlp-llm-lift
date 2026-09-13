@@ -1,0 +1,109 @@
+attribute_category,candidate,raw_count,message_reach,confidence
+price/value,price,311,265,high
+performance/powertrain,performance,252,232,high
+segment/positioning,class,223,181,medium
+reliability/quality,problem,200,167,high
+drivetrain configuration (awd/rwd/fwd),awd,219,164,high
+interior/comfort,interior,182,156,high
+segment/positioning,luxury,178,149,high
+performance/powertrain,v6,256,149,high
+segment/positioning,segment,156,136,high
+performance/powertrain,manual,186,133,high
+price/value,msrp,177,132,high
+price/value,30k,186,131,medium
+performance/powertrain,engine,150,125,high
+interior/comfort,leather,162,124,high
+price/value,40k,160,114,medium
+handling/ride,tires,130,110,high
+price/value,cost,120,104,medium
+handling/ride,handling,110,101,high
+interior/comfort,seat,119,100,medium
+drivetrain configuration (awd/rwd/fwd),rwd,123,97,high
+performance/powertrain,weight,121,96,high
+reliability/quality,quality,113,95,high
+drivetrain configuration (awd/rwd/fwd),fwd,109,94,high
+reliability/quality,warranty,111,93,high
+styling/body type,size,98,92,medium
+reliability/quality,reliability,111,92,high
+price/value,value,113,92,high
+segment/positioning,market,99,91,medium
+styling/body type,sedan,97,88,high
+price/value,lease,95,84,high
+price/value,10k,104,77,high
+price/value,50k,105,77,high
+technology/features,options,81,75,high
+performance/powertrain,v8,132,73,high
+reliability/quality,issue,74,71,medium
+technology/features,features,80,68,high
+performance/powertrain,sport package,85,68,medium
+performance/powertrain,track,75,66,high
+performance/powertrain,numbers,74,65,medium
+price/value,35k,90,64,high
+performance/powertrain,torque,78,64,high
+performance/powertrain,manual transmission,65,64,high
+interior/comfort,back seat,71,62,high
+fuel economy,gas,66,62,high
+handling/ride,drive,63,61,medium
+performance/powertrain,hp,69,60,high
+reliability/quality,brakes,79,60,high
+price/value,ed,75,59,high
+handling/ride,sport,62,56,high
+performance/powertrain,snow,65,54,medium
+segment/positioning,brand,60,54,high
+styling/body type,coupe,58,53,high
+segment/positioning,competition,59,53,medium
+segment/positioning,category,55,52,high
+handling/ride,front,58,52,medium
+technology/features,option,58,51,high
+price/value,15k,63,50,high
+performance/powertrain,acceleration,53,48,high
+drivetrain configuration (awd/rwd/fwd),wheels,50,48,high
+technology/features,nav,52,47,high
+drivetrain configuration (awd/rwd/fwd),stick,66,47,medium
+price/value,20k,68,46,high
+handling/ride,suspension,47,45,high
+segment/positioning,base,51,44,high
+segment/positioning,premium,48,43,high
+performance/powertrain,transmission,48,42,high
+reliability/quality,maintenance,48,41,high
+price/value,prices,42,41,high
+performance/powertrain,300hp,61,41,high
+reliability/quality,service,43,41,high
+fuel economy,mileage,42,40,medium
+price/value,depreciation,54,40,high
+price/value,45k,61,40,high
+price/value,thousands,45,39,high
+reliability/quality,repairs,43,39,high
+segment/positioning,luxury car,43,38,high
+handling/ride,steering,39,38,high
+styling/body type,styling,42,38,high
+drivetrain configuration (awd/rwd/fwd),manuals,47,37,medium
+styling/body type,style,41,37,high
+reliability/quality,parts,42,36,medium
+price/value,resale,38,36,high
+styling/body type,exterior,36,35,high
+reliability/quality,miles,36,35,high
+handling/ride,corners,41,35,high
+price/value,month,39,34,medium
+reliability/quality,issues,37,33,high
+segment/positioning,sports sedan,35,33,high
+segment/positioning,manufacturer,33,33,high
+reliability/quality,100k,46,33,high
+performance/powertrain,speed,41,33,high
+styling/body type,looks,36,32,high
+interior/comfort,space,39,32,medium
+drivetrain configuration (awd/rwd/fwd),wheel,35,32,high
+technology/features,sunroof,35,32,high
+segment/positioning,badge,39,32,high
+performance/powertrain,winter,35,32,medium
+price/value,deal,36,31,high
+performance/powertrain,sports package,34,31,medium
+performance/powertrain,clutch,32,31,high
+price/value,25k,38,31,high
+interior/comfort,wood,36,31,high
+technology/features,bluetooth,34,30,high
+price/value,invoice,36,30,high
+reliability/quality,ownership,31,30,medium
+price/value,interest,31,30,high
+price/value,60k,43,30,high
+price/value,cash,35,30,high
