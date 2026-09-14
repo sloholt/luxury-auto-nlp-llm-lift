@@ -1,59 +1,3 @@
-"""
-semantic_lift.py
-
-Computes pairwise co-occurrence lift among Task A's final top-10 luxury-auto
-brands using LLM-based semantic attribution instead of lexical/regex matching
-(see ../Task_B/calculate_lift.py for the lexical baseline this is compared
-against in the reconciliation step).
-
-    bmw, acura, cadillac, audi, lexus, gm, infiniti, mercedes-benz, volvo, nissan
-
-Method:
-  1. Reuse Task A's own cleaned corpus loader (`extract_candidates.load_and_clean_data`),
-     for the same reason Task B does: keeps both approaches working from identical
-     input text, so any lift differences come from the attribution method, not from
-     preprocessing differences.
-  2. For each message, ask an LLM (not a regex) whether the message is GENUINELY,
-     SUBSTANTIVELY discussing each of the 10 brands -- by name, by model/trim/chassis
-     code, or by slang -- based on meaning and context, not keyword presence. This is
-     what resolves the cases Task B's anchor-only regex structurally cannot: slang/
-     model-code references ("e46"->BMW, "TL"->Acura), comparisons and negations
-     ("I'd never buy X over Y" -- both count), sarcasm, and nested quotes of other
-     users -- while explicitly excluding Task A's known text-corruption artifacts
-     (a brand name spliced mid-word into an unrelated word) and brands outside the
-     top-10 set (e.g. Kia, Hyundai) that should not be force-mapped onto a listed one.
-  3. Compute lift the same way Task B does, so the two matrices are directly
-     comparable:
-
-         lift(A, B) = P(A and B) / (P(A) * P(B)) = (N * n_both) / (n_A * n_B)
-
-Same unit of analysis as Task B (one message = one unit) -- confirmed necessary
-for a valid reconciliation in ../Task_B/output/.
-
-Validation:
-  - `validate_toy()` runs the classifier against a hand-built toy set covering the
-    exact cases lexical matching gets wrong, BEFORE spending API budget on the full
-    corpus. Run this first; do not proceed to `main()` until every case either
-    passes or you understand why it didn't.
-  - `main()` also writes a random n=30 manual-inspection sample
-    (`output/manual_inspection_sample.csv`) per the assignment's validation
-    requirement -- read it and characterize the errors you find, don't just report
-    an accuracy percentage.
-
-Requires ANTHROPIC_API_KEY in the environment. Cost is tracked and reported --
-see `estimate_cost()`. Verify current per-token pricing at https://claude.com/pricing
-before finalizing the cost figure in your writeup; the constants below were current
-as of Sept 2026.
-
-Outputs (written to ./output/):
-  - semantic_classifications.csv : per-message list of brands the LLM identified
-  - semantic_lift_matrix.csv     : symmetric 10x10 brand-by-brand lift matrix
-  - semantic_pair_lift.csv       : long-format one row per unordered brand pair
-  - usage_report.csv             : calls, tokens, estimated cost
-  - manual_inspection_sample.csv : n=30 random sample for manual error review
-  - toy_validation_results.csv   : toy-set pass/fail detail from validate_toy()
-"""
-
 import os
 import sys
 import json
@@ -68,7 +12,7 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 
 sys.path.insert(0, TASK_A_DIR)
 
-from extract_candidates import load_and_clean_data, DATA_PATH  # noqa: E402
+from extract_candidates import load_and_clean_data, DATA_PATH  
 
 TOP10_BRANDS_PATH = os.path.join(TASK_A_DIR, "output", "final_brands_top10.csv")
 
@@ -142,11 +86,7 @@ def estimate_cost(usage_log):
             "est_cost_usd": round(cost, 4)}
 
 
-# ---------------------------------------------------------------------------
-# Toy validation set -- hand-built to stress-test exactly the cases lexical
-# co-occurrence gets wrong. Run validate_toy() before spending API budget on
-# the full corpus.
-# ---------------------------------------------------------------------------
+
 TOY_SET = [
     {"id": "t1", "text": "I love my BMW 3 series, best car I've owned.",
      "expected": {"BMW"}, "tests": "plain genuine mention"},
@@ -191,9 +131,6 @@ def validate_toy(client, brands):
     return df
 
 
-# ---------------------------------------------------------------------------
-# Lift computation -- same formula/shape as Task B's for direct comparability
-# ---------------------------------------------------------------------------
 def compute_lift_matrix(classifications, brands):
     n = len(classifications)
     brand_post_count = Counter()
@@ -231,7 +168,7 @@ def compute_pair_table(brand_post_count, pair_post_count, n, brands):
 def main():
     import anthropic
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from environment
+    client = anthropic.Anthropic()  
 
     top10 = load_top10_brands()
     print(f"Top 10 brands (from Task A): {top10}")
@@ -275,8 +212,7 @@ def main():
     print("\nTop 10 brand pairs by semantic lift:")
     print(pair_table.head(10).to_string(index=False))
 
-    # Manual inspection sample -- required validation step, same n=30 / seed=42
-    # convention Task A used for its own sampling.
+    
     random.seed(42)
     sample_ids = random.sample(range(N), min(30, N))
     class_lookup = {c["post_id"]: c["brands"] for c in classifications}
